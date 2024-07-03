@@ -115,7 +115,7 @@ function timeElapse(birthday) {
 	// }
 
 	var date1=new Date(); //开始时间，当前时间
-	var date2=new Date("2024/06/22"); //结束时间，需传入时间参数
+	var date2=new Date("2024/7/01"); //结束时间，需传入时间参数
 	var date3=date1.getTime()-date2.getTime(); //时间差的毫秒数
 	//计算出相差天数
 	var days=Math.floor(date3/(24*3600*1000));
